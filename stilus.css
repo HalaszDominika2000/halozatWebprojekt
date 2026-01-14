@@ -1,0 +1,17 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url(img/hatter.png);
+}
+
+
+
+h1 {
+    color: black !important; /*!important - felulirjuk a programot*/
+}
+
+p {
+    color: black;
+}
+
