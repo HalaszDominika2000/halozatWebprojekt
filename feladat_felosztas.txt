@@ -1,8 +1,24 @@
-Gergő - seo
-Misi - Biztonság
-Dominika mellékoldal- szolgáltatások
-Dominika aloldal - karrier
+A képek és a tartalom generált.
 
+Aloldalak:
+Gergő aloldal - Keresőoptimalizálás (SEO) és webes marketing
+Misi aloldal - Webes biztonság és adatvédelem
+Ádám aloldal- Webszerkesztési nyelvek és technológiák
+Dominika aloldal - Webfejlesztői pályák és karrier
+
+Mellékoldalak:
+Misi - kapcsolat
+Gergő - GY.I.K
+Ádám - Rólunk / Csapat, Árak / Szolgáltatási csomagok
+Dominika mellékoldal- szolgáltatások
+
+További aloldalak:
+Modern webes trendek - közös
+Webdesign és felhasználói élmény (UX/UI) - közös
+Webszerkesztési nyelvek és technológiák - közös
+Alapfogalmak és webes működés - közös
+
+Főoldal és stílus:
 index.html - közös
 stilus.css - közös
 

@@ -96,37 +96,63 @@
         </nav>
 
         <article>
-            <h1>Szolgáltatásaink</h1>
-            <p>Webfejlesztési szolgáltatásainkat úgy alakítottuk ki, hogy teljes körű megoldást nyújtsanak a
-                vállalkozások online jelenlétéhez. A tervezéstől a fejlesztésen át az üzemeltetésig minden munkafázisban
-                átlátható, szakmailag megalapozott megoldásokat kínálunk.</p>
-            <p>Célunk, hogy az általunk készített weboldalak ne csupán megjelenésükben legyenek igényesek, hanem hosszú
-                távon is megbízhatóan támogassák az üzleti működést.</p>
-            <h3>Weboldal tervezés és fejlesztés</h3>
-            <p>Egyedi igényekre szabott weboldalakat tervezünk és fejlesztünk, amelyek illeszkednek a vállalkozás
-                arculatához és üzleti céljaihoz. A tervezési folyamat során kiemelt figyelmet fordítunk a logikus
-                felépítésre, az átlátható tartalomszerkezetre és a felhasználói élményre.</p>
-            <p>A fejlesztés során modern technológiákat alkalmazunk, biztosítva a gyors működést, a stabil technikai
-                alapokat és a jövőbeni bővíthetőséget. Az elkészült weboldalak minden esetben tesztelt, megbízható
-                rendszerekre épülnek.</p>
-            <h3>Reszponzív és mobilbarát kialakítás</h3>
-            <p>A weboldalak ma már nem csupán asztali számítógépeken jelennek meg. Az általunk készített oldalak teljes
-                mértékben reszponzívak, így minden eszközön – mobilon, tableten és számítógépen – kényelmesen
-                használhatók.</p>
-            <p>A mobilbarát kialakítás nemcsak a felhasználói élményt javítja, hanem hozzájárul a jobb keresőmotoros
-                megjelenéshez is.</p>
-            <h3>Karbantartás és továbbfejlesztés</h3>
-            <p>A weboldal átadása után is fontosnak tartjuk a folyamatos működés biztosítását. Vállaljuk a weboldalak
-                rendszeres karbantartását, frissítések elvégzését, valamint a biztonsági megoldások naprakészen
-                tartását.</p>
-            <p>Igény esetén új funkciók fejlesztését, meglévő elemek módosítását és a weboldal bővítését is elvégezzük,
-                így az oldal együtt fejlődhet a vállalkozással.</p>
-            <h3>Technikai támogatás és szakmai tanácsadás</h3>
-            <p>Ügyfeleink számára folyamatos technikai támogatást biztosítunk, legyen szó kisebb módosításokról vagy
-                összetettebb technikai kérdésekről. Emellett szakmai tanácsadással segítünk eligazodni a webes
-                megoldások világában, hogy a legmegfelelőbb döntések szülessenek.</p>
-            <p>Célunk, hogy ügyfeleink hosszú távon is stabil, jól működő online felülettel rendelkezzenek, amely
-                támogatja üzleti céljaikat.</p>
+            <section>
+                <h1>Alapfogalmak és webes működés</h1>
+                <article>
+                    <p>Ahhoz, hogy a webfejlesztés világában magabiztosan mozogjunk, érdemes megérteni az alapfogalmakat
+                        és azt, hogyan működik a web. Az alábbiakban áttekintjük a legfontosabb kérdéseket a
+                        weboldalaktól a szerverekig.</p>
+                    <h3>Mi az a weboldal és miben különbözik egy webalkalmazástól?</h3>
+                    <ul>
+                        <li>Weboldal: statikus vagy dinamikus tartalom megjelenítésére szolgáló internetes felület.
+                            Például céges bemutatkozó oldal, blog, portfólió.</li>
+                        <li>Webalkalmazás: interaktív online szolgáltatás, amely adatfeldolgozást és felhasználói
+                            interakciókat biztosít. Például webshop, online banki felület, projektmenedzsment
+                            alkalmazás.</li>
+                    </ul>
+                    <p>Egyszerűen fogalmazva: a weboldal főleg információt közvetít, míg a webalkalmazás interakciót és
+                        funkciókat kínál a felhasználóknak.</p>
+                    <h3>Hogyan működik az internet és a WWW?</h3>
+                    <ul>
+                        <li>Internet: a világméretű számítógép-hálózat, amely lehetővé teszi az adatok cseréjét és
+                            kommunikációt.</li>
+                        <li>WWW (World Wide Web): az interneten elérhető weboldalak összessége. A weboldalak HTTP/HTTPS
+                            protokoll segítségével kommunikálnak a szerverekkel és a böngészőkkel.</li>
+                    </ul>
+                    <p>Az internet tehát az infrastruktúra, a WWW pedig a rajta futó webes szolgáltatások rendszere.</p>
+                    <h3>Hogyan töltődik be egy weboldal a böngészőben?</h3>
+                    <ol>
+                        <li>A felhasználó beírja a webcímét a böngészőbe.</li>
+                        <li>A böngésző lekérdezi a domainhez tartozó IP-címet a DNS szerveren keresztül.</li>
+                        <li>A böngésző kapcsolatot létesít a szerverrel (HTTP/HTTPS protokoll).</li>
+                        <li>A szerver elküldi a weboldal HTML, CSS és JavaScript fájljait.</li>
+                        <li>A böngésző feldolgozza ezeket, és megjeleníti a teljes weboldalt a felhasználó számára.</li>
+                    </ol>
+                    <p>Ez a folyamat általában másodpercek alatt történik, és a webfejlesztők feladata, hogy gyors és
+                        gördülékeny legyen.</p>
+                    <h3>A kliens–szerver modell magyarázata</h3>
+                    <p>A web működésének alapja a kliens–szerver modell:</p>
+                    <ul>
+                        <li>Kliens: a felhasználó eszköze (böngésző, mobil app), amely kéréseket küld a szervernek.</li>
+                        <li>Szerver: a rendszer, amely fogadja a kéréseket, feldolgozza az adatokat és válaszol a
+                            kliensnek.</li>
+                    </ul>
+                    <p>Ez a modell biztosítja, hogy a felhasználók bárhonnan, bármikor hozzáférhessenek a weboldalakhoz
+                        és webes szolgáltatásokhoz.</p>
+                </article>
+                <aside>
+                    <h3>Mi az a domain, webtárhely, szerver?</h3>
+                    <ul>
+                        <li>Domain (webcím): az interneten való azonosításra szolgáló név, például: www.ceged.hu.</li>
+                        <li>Webtárhely (hosting): a weboldal fájljainak fizikai helye egy szerveren, ahol azok elérhetők
+                            a látogatók számára.</li>
+                        <li>Szerver: a számítógép vagy rendszer, amely a weboldalt és az adatokat szolgáltatja a
+                            felhasználóknak.</li>
+                    </ul>
+                    <p>A domain név és a tárhely együtt teszi lehetővé, hogy az oldal elérhető legyen bárki számára az
+                        interneten.</p>
+                </aside>
+            </section>
         </article>
 
         <body>
