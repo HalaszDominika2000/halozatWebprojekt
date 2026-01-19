@@ -1,11 +1,37 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
+
 body {
     background-image: url(img/hatter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;    
 }
 
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(2px);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
+nav {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 h1 {
     color: black !important; /*!important - felulirjuk a programot*/
@@ -14,4 +40,29 @@ h1 {
 p {
     color: black;
 }
+
+/* Dropdown nyitása hover-re */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* ne legyen üres hely a hover miatt */
+}
+
+/* Dropdown menü háttér és betűszín */
+.navbar-nav .dropdown-menu {
+    background-color: #343a40; /* ugyanolyan, mint a navbar-dark bg-dark */
+    border: none; /* ha nem akarunk keretet */
+    transition: all 0.2s ease;
+}
+
+/* Dropdown menü szöveg */
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: white; /* fehér szöveg */
+}
+
+/* Hover állapot az almenüpontokon */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #495057; /* egy sötétebb árnyalat hoverre */
+    color: white;
+}
+
 

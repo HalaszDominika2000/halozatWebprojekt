@@ -22,7 +22,6 @@
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
                     <img src="img/logo2.png" alt="Logo" width="40" height="20" class="d-inline-block align-text-top">
-                    <!--Cegnev otletek-->
                     <span class="fw-bold fs-5 text-warning">Devly, Pixio, Siteon</span>
                 </a>
 
@@ -35,27 +34,62 @@
                 <!-- Menü -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <!-- Főmenü -->
+
+                        <!-- Főmenü dropdown -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Főmenü</a>
+                            <a class="nav-link active" href="index.html" role="button"
+                                aria-expanded="false">
+                                Főmenü
+                            </a>
                         </li>
-                        <!-- Négy másik menüpont -->
+
+                       <li class="nav-item">
+                            <a class="nav-link" href="#" role="button"
+                                aria-expanded="false">
+                                Gergo
+                            </a>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hercegfi Mihaly</a>
+                            <a class="nav-link" href="#" role="button"
+                                aria-expanded="false">
+                                Misi
+                            </a>
                         </li>
+
+                      <li class="nav-item">
+                            <a class="nav-link" href="#" role="button"
+                                aria-expanded="false">
+                                Ádám
+                            </a>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kovari Gergo</a>
+                            <a class="nav-link" href="szolgaltatasok.html" role="button"
+                                aria-expanded="false">
+                                Szolgáltatások
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Csonka Adam</a>
+
+                        <!-- Halasz Dominika dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="szolgaltatasok.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aloldalak
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="karrier.html">Karrier</a></li>
+                                <li><a class="dropdown-item" href="#">Almenü 2</a></li>
+                                <li><a class="dropdown-item" href="karrier.html">Almenu 3</a></li>
+                                <li><a class="dropdown-item" href="#">Almenü 4</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Halasz Dominika</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
+
         <article>
             <h1>Lorem</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt iure beatae numquam possimus
@@ -137,6 +171,18 @@
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.navbar .dropdown').forEach(function (dropdown) {
+            // Ha az egeret elviszik a menüpont fölül, zárja be a többi dropdown-t
+            dropdown.addEventListener('mouseleave', function () {
+                // Minden dropdown menüt bezárunk
+                document.querySelectorAll('.dropdown-menu.show').forEach(function (menu) {
+                    menu.classList.remove('show');
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>

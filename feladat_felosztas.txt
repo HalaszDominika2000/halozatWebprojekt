@@ -1,4 +1,8 @@
 Gergő - seo
 Misi - Biztonság
-Dominika - karrier, szolgáltatások
+Dominika mellékoldal- szolgáltatások
+Dominika aloldal - karrier
+
+index.html - közös
+stilus.css - közös
 
