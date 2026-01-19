@@ -16,21 +16,52 @@ main {
     max-width: 900px;
     margin: auto;
     border: 3px solid black;
-    border-radius: 15px;
-    background: rgba(0,0,0,0.3);
+    border-radius: 25px;
+    background: rgba(0,0,0,0.4);
     backdrop-filter: blur(2px);
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 15px;
 }
 
 nav {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: rgba(0,0,0,0.5) !important;
+    backdrop-filter: blur(2px) !important;
+     /* Árnyék */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: relative; /*Ne lógjon rá az almenukre az aside az aloldalakon*/
+    z-index: 1000; /*Ne lógjon rá az almenukre az aside az aloldalakon*/
 }
 
+article h1,
+article h3,
+article p {
+    color: white !important;
+}
+
+article li {
+    color: white;
+}
+
+article {
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
 footer {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: rgba(0,0,0,0.5) !important;
+    backdrop-filter: blur(2px) !important;
+     /* Árnyék */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {

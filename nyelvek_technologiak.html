@@ -8,21 +8,25 @@
     <meta name="author" content="Hercegfi Mihaly, Kovari Gergo, Csonka Adam, Halasz Dominika">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilus.css">
+    <link rel="stylesheet" href="aloldal.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome (GitHub ikonhoz) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Devly, Pixio, Siteon</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>Pixio</title> <!--Devly, Siteon-->
 </head>
 
 <body>
 
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--Altalaban a nav és a footer a mainen kivul van ha azomban a mainen belul van kulonleges kinezetet kap, egy hiba miatt :D-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo2.png" alt="Logo" width="40" height="20" class="d-inline-block align-text-top">
-                    <span class="fw-bold fs-5 text-warning">Devly, Pixio, Siteon</span>
+                    <img src="img/logo2.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    <span class="fw-bold fs-6 text-warning">Pixio</span>
                 </a>
 
                 <!-- Hamburger gomb mobilra -->
@@ -38,38 +42,38 @@
                         <!-- Főmenü dropdown -->
                         <li class="nav-item">
                             <a class="nav-link active" href="index.html" role="button" aria-expanded="false">
-                                Főmenü
+                                <i style="color:orange" class="bi bi-house"></i> Főoldal
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="csapat_arak.html" role="button" aria-expanded="false">
-                                Rólunk/Árak
+                                <i style="color:orange" class="bi bi-person"></i> Rólunk/Árak
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="szolgaltatasok.html" role="button" aria-expanded="false">
-                                Szolgáltatások
-                            </a>
+                                <i style="color:orange" class="bi bi-list-check"></i> Szolgáltatások
+                            </a> 
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="kapcsolat.html" role="button" aria-expanded="false">
-                                Kapcsolat
+                                <i style="color:orange" class="bi bi-envelope"></i> Kapcsolat
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="gyik.html" role="button" aria-expanded="false">
-                                GY.I.K
+                                <i style="color:orange" class="bi bi-question-circle"></i> GY.I.K
                             </a>
                         </li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="szolgaltatasok.html" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Aloldalak
+                                <i class="bi bi-layers" style="color:orange"></i> Aloldalak
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="webes_mukodes.html">Alapfogalmak és webes működés</a>
@@ -94,11 +98,9 @@
                 </div>
             </div>
         </nav>
-
-        <article>
-            <section>
-                <h1>Webszerkesztési nyelvek és technológiák</h1>
+            
                 <article>
+                    <h1>Webszerkesztési nyelvek és technológiák</h1>
                     <p>A modern weboldalak és webes alkalmazások működéséhez többféle technológia és programozási nyelv
                         szükséges. Ezek ismerete elengedhetetlen minden webfejlesztő számára, legyen szó frontend,
                         backend vagy full stack fejlesztésről. Az alábbiakban áttekintjük a legfontosabb nyelveket és a
@@ -111,8 +113,8 @@
                             elemeket.</li>
                         <li>A HTML nem programozási nyelv, hanem jelölőnyelv, amely strukturálja a weboldal tartalmát.
                         </li>
-                        <li>Alapvető elemek: <h1>–<h6> címkék, <p> bekezdés, <a> link, <img> kép, <ul>/<ol> listák,
-                                                    <div> és <span> konténerek.</li>
+                        <li>Alapvető elemek: (h1–h6) címkék, (p) bekezdés, (a) link, (img) kép, (ul/ol) listák,
+                                                    (div) és (span) konténerek.</li>
                     </ul>
                     <p>A HTML adja a weboldal “vázát”, amelyre később a stílus és az interaktivitás épül.</p>
                     <h3>CSS: miért fontos a stílus és az elrendezés?</h3>
@@ -168,24 +170,21 @@
                     <p>A frontend és a backend együtt biztosítja a teljes webes élményt, a tartalomtól az interaktív
                         funkciókig.</p>
                 </aside>
-            </section>
-        </article>
-
-        <body>
+            
 
             <footer style="text-align:center; padding:20px; background-color:#000; color:#fff;">
                 <a href="https://github.com/HalaszDominika2000" target="_blank"
                     style="color:white; text-decoration:none; margin-right:10px;">
                     <i class="fa fa-github" style="font-size:24px;"></i>
                 </a>
-                Devly, Pixio, Siteon &copy; <span id="currentYear"></span>
+                Pixio &copy; <span id="currentYear"></span>
             </footer>
 
             <!-- JavaScript az aktuális évhez -->
             <script>
                 document.getElementById("currentYear").textContent = new Date().getFullYear();
             </script>
-        </body>
+        
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

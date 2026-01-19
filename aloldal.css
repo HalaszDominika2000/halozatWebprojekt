@@ -1,8 +1,66 @@
+article {
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(246, 244, 247);
+}
+aside li {
+    color: black;
+}
+
+article h1,
+article h3,
+article p {
+    color: white !important;
+}
+
+article li {
+    color: white;
+}
+
+
+aside {
+    margin: 15px;
+    background: rgb(173, 111, 4) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 2px solid rgb(186, 122, 1);
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 900px;
+    width: 250px;
+    
+}
+
+.table-custom {
+    border-radius: 15px;
+    overflow: hidden;  /* a sávok ne lógjanak ki */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.table-custom thead th {
+    background-color: #343a40;  /* sötét fejlécek */
+    color: #ffc107;             /* arany szín a szövegnek */
+}
+
+.table-custom tbody tr:hover {
+    background-color: rgba(255, 193, 7, 0.2); /* hover effekt */
+}
+
+
+
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
-    "a as";
+    "n n"
+    "a as"
+    "f f";
+}
+
+nav {
+    grid-area: n;
 }
 
 article {
@@ -12,3 +70,8 @@ article {
 aside {
     grid-area: as;
 }
+
+footer {
+    grid-area: f;
+}
+

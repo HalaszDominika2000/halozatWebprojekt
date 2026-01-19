@@ -11,18 +11,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome (GitHub ikonhoz) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Devly, Pixio, Siteon</title>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <title>Pixio</title> <!--Devly, Siteon-->
 </head>
 
 <body>
 
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo2.png" alt="Logo" width="40" height="20" class="d-inline-block align-text-top">
-                    <span class="fw-bold fs-5 text-warning">Devly, Pixio, Siteon</span>
+                    <img src="img/logo2.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                    <span class="fw-bold fs-6 text-warning">Pixio</span>
                 </a>
 
                 <!-- Hamburger gomb mobilra -->
@@ -38,31 +40,31 @@
                         <!-- Főmenü dropdown -->
                         <li class="nav-item">
                             <a class="nav-link active" href="index.html" role="button" aria-expanded="false">
-                                Főmenü
+                                <i style="color:orange" class="bi bi-house"></i> Főoldal
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="csapat_arak.html" role="button" aria-expanded="false">
-                                Rólunk/Árak
+                                <i style="color:orange" class="bi bi-person"></i> Rólunk/Árak
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="szolgaltatasok.html" role="button" aria-expanded="false">
-                                Szolgáltatások
+                                <i style="color:orange" class="bi bi-list-check"></i> Szolgáltatások
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="kapcsolat.html" role="button" aria-expanded="false">
-                                Kapcsolat
+                                <i style="color:orange" class="bi bi-envelope"></i> Kapcsolat
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="gyik.html" role="button" aria-expanded="false">
-                                GY.I.K
+                                <i style="color:orange" class="bi bi-question-circle"></i> GY.I.K
                             </a>
                         </li>
 
@@ -128,21 +130,19 @@
             </ul>
         </article>
 
-        <body>
-
             <footer style="text-align:center; padding:20px; background-color:#000; color:#fff;">
                 <a href="https://github.com/HalaszDominika2000" target="_blank"
                     style="color:white; text-decoration:none; margin-right:10px;">
                     <i class="fa fa-github" style="font-size:24px;"></i>
                 </a>
-                Devly, Pixio, Siteon &copy; <span id="currentYear"></span>
+                Pixio &copy; <span id="currentYear"></span>
             </footer>
 
             <!-- JavaScript az aktuális évhez -->
             <script>
                 document.getElementById("currentYear").textContent = new Date().getFullYear();
             </script>
-        </body>
+    
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
