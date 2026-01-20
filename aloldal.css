@@ -33,21 +33,35 @@ aside {
     
 }
 
-.table-custom {
-    border-radius: 15px;
-    overflow: hidden;  /* a sávok ne lógjanak ki */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+/* Tábla alap kinézet */
+.table {
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid rgba(77, 163, 255, 0.3);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.table-custom thead th {
-    background-color: #343a40;  /* sötét fejlécek */
-    color: #ffc107;             /* arany szín a szövegnek */
+/* TELJES tábla világítson hoverre */
+.table:hover {
+    border-color: #4da3ff;
+    box-shadow: 0 0 15px rgba(77, 163, 255, 0.7);
 }
 
-.table-custom tbody tr:hover {
-    background-color: rgba(255, 193, 7, 0.2); /* hover effekt */
+/* Sor hover animáció */
+.table tbody tr {
+    transition: background-color 0.25s ease;
 }
 
+/* Sor hover szín */
+.table tbody tr:hover {
+    background-color: #4da3ff !important;
+}
+
+/* Szöveg maradjon fehér hovernél */
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+    color: #fff;
+}
 
 
 main {

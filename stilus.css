@@ -53,6 +53,95 @@ article {
     margin-bottom: 50px;
 }
 
+.form-wrapper { /*width 90 vh mellett a html oldalon középen lesz elhelyezve a táblázat*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Külső középre igazítás */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #111;
+    width: 100vh;
+    border-radius: 25px;
+}
+
+/* Űrlap doboz */
+.contact-form {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 25px rgba(77, 163, 255, 0.25);
+    color: #fff;
+}
+
+/* Cím */
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #4da3ff;
+}
+
+/* Input csoport */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Input mezők */
+.form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    background-color: #121212;
+    color: #fff;
+    font-size: 15px;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Input fókusz */
+.form-group input:focus {
+    outline: none;
+    border-color: #4da3ff;
+    box-shadow: 0 0 10px rgba(77, 163, 255, 0.6);
+}
+
+/* Gomb */
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    background-color: #4da3ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Gomb hover */
+.contact-form button:hover {
+    background-color: #3a8fe6;
+    box-shadow: 0 0 15px rgba(77, 163, 255, 0.7);
+}
+
+
 
 
 footer {
@@ -99,5 +188,18 @@ p {
     background-color: #495057; /* egy sötétebb árnyalat hoverre */
     color: white;
 }
+
+/* Minden elemre érvényes cursor: none */
+/*body, body * {
+    cursor: none !important;
+}*/
+
+
+
+
+
+
+
+
 
 

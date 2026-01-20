@@ -1,5 +1,7 @@
 A képek és a tartalom generált.
 
+Tartalomkezelő rendszerek (CMS) - világító táblázat
+
 Aloldalak:
 Gergő aloldal - Keresőoptimalizálás (SEO) és webes marketing
 Misi aloldal - Webes biztonság és adatvédelem
@@ -7,7 +9,7 @@ Misi aloldal - Webes biztonság és adatvédelem
 Dominika aloldal - Webfejlesztői pályák és karrier
 
 Mellékoldalak:
-Misi - kapcsolat
+Misi - kapcsolat - email telefonszám mentése, nem mentődik el 
 Gergő - GY.I.K
 Ádám - Rólunk / Csapat, Árak / Szolgáltatási csomagok
 Dominika mellékoldal- szolgáltatások
